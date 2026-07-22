@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sheridan Webpage Template</title>
+  <link rel="stylesheet" href="StyleSheet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Sheridan Webpage</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">General Information</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Container Section</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Tech</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-oval">
+
+        <img src="Images/SheridanYellowjacket.png"
+             alt="Tech Team"
+             class="profile-img">
+
+        <h1 class="mt-4">Sheridan Technology Department</h1>
+
+        <p class="lead">
+            Supporting students, staff, and classrooms through innovative technology solutions.
+        </p>
+
+    </div>
+</section>
+
+<!-- About The Team -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2>Information</h2>
+    <p>This is a page deticated to Html scripting for projects based with the sheridan school district. We will see what we can do with this.</p>
+    <h4>Technology</h4>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card text-bg-light">
+          <div class="card-body">
+            <h5 class="card-title">The Team</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item p-0">
+                    <a href="staff/bj-pullman.html" class="d-block p-3 text-decoration-none text-dark">
+                        BJ Pullman
+                    </a>
+                </li>
+
+                <li class="list-group-item p-0">
+                    <a href="staff/vincent-holmes.html" class="d-block p-3 text-decoration-none text-dark">
+                        Vincent Holmes
+                    </a>
+                </li>
+
+                <li class="list-group-item p-0">
+                    <a href="staff/chance-baughman.html" class="d-block p-3 text-decoration-none text-dark">
+                        Chance Baughman
+                    </a>
+                </li>
+
+                <li class="list-group-item p-0">
+                    <a href="staff/terry-barker.html" class="d-block p-3 text-decoration-none text-dark">
+                        Terry Barker
+                    </a>
+                </li>
+
+                <li class="list-group-item p-0">
+                    <a href="staff/casey-eddy.html" class="d-block p-3 text-decoration-none text-dark">
+                        Casey Eddy
+                    </a>
+                </li>
+
+                <li class="list-group-item p-0">
+                    <a href="staff/brandy-ashley.html" class="d-block p-3 text-decoration-none text-dark">
+                        Brandy Ashley
+                    </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 mb-3">
+        <div class="card text-bg-light">
+          <div class="card-body">
+            <h5 class="card-title">Tech Team</h5>
+		      <img src="Images/team.JPG" class="card-img-top" alt="Tech Team">
+          </div>
+        </div>
+      </div>     
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="py-5 bg-light">
+  <div class="container">
+    <h2>School Resources</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+            <a href="https://sheridanschools.snipe-it.io/">
+                <img src="Images/SheridanYellowjacket.png" class="card-img-top" alt="Snipe-IT">
+            </a>
+          <div class="card-body">
+            <h5 class="card-title">Snipe-IT</h5>
+            <p class="card-text">"Webpage for inventory"</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="Images\meme.jpg" class="card-img-top" alt="meme">
+          <div class="card-body">
+            <h5 class="card-title">Card 5</h5>
+            <p class="card-text">Idk im too tired for this right now. maybe an api or something</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <a href="https://www.sheridanschools.org/">
+      	    <img src="Images\sheridanLogo.jpg" class="card-img-top" alt="Sheridan School Page">
+    	  </a>
+          <div class="card-body">
+            <h5 class="card-title">Sheridan School district</h5>
+            <p class="card-text">Official page for students faculty and parents!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2>Contact Tech department</h2>
+    <form action="https://formspree.io/f/xeogapyd" method="POST">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Your name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  <p>Â© 2025 Casey Eddy | 
+    <a href="https://github.com/Caseydea18" class="text-white"><i class="bi bi-github"></i></a> 
+    <a href="https://linkedin.com/in/CaseyEddy" class="text-white ms-2"><i class="bi bi-linkedin"></i></a>
+  </p>
+</footer>
+
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn" class="btn btn-primary rounded-circle"><i class="bi bi-arrow-up"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const scrollBtn = document.getElementById("scrollTopBtn");
+
+  window.onscroll = () => {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      scrollBtn.style.display = "block";
+    } else {
+      scrollBtn.style.display = "none";
+    }
+  };
+
+  scrollBtn.onclick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
+</body>
+</html>
